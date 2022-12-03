@@ -61,7 +61,7 @@ function countVowel(str) {
     }
     return count;
 }
-console.log(countVowel("aaaaa"))
+console.log(countVowel(""))
     // exe 4
     // Write a function to check if an input string is a palindrome
     // Function `checkPalindrome` return a boolean value based on whether the input string is palindrome or not.
@@ -105,7 +105,7 @@ function genRandom(min, max) {
         return "pleaze enter number";
     }
 }
-console.log(genRandom(5, 10))
+console.log(genRandom())
 
 
 // exe 6
@@ -143,4 +143,4 @@ function addNumber(...theArgs) {
     }
     return total;
 }
-console.log(addNumber(1, 2, 3, 4));
+console.log(addNumber());
